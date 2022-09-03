@@ -232,7 +232,7 @@ Only takes effect if `doom-themes-treemacs-enable-variable-pitch' is non-nil."
                       "pom.xml" "properties" "terminalrc" "toml" "tridactylrc"
                       "vimperatorrc" "vimrc" "vrapperrc" "xdefaults" "xml"
                       "xresources" "yaml" "yarn-integrity" "yarnclean"
-                      "yarnignore" "yarnrc" "yml"))
+                      "yarnignore" "yarnrc" "yml" ".project"))
         (treemacs-create-icon
          :icon (format "  %s\t" (all-the-icons-octicon "file-text" :v-adjust 0 :face face-spec))
          :extensions ("md" "markdown" "rst" "org" "log" "txt" "contribute"
